@@ -8,10 +8,10 @@ import datetime
 
 sense = SenseHat()
 
-# 设置旋转方向，可选0,90,180,270，默认为0
+# 设置旋转方向，可选0,90,180,270，默认为0; Set rotation direction, optional 0,90,180,270, default is 0
 sense.set_rotation(180)
 
-# 设置颜色R G B值
+# 设置颜色R G B值; Set color R G B value
 color_text = (0, 0, 255)
 color_back = (0, 0, 0)
 
